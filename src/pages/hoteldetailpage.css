@@ -1,0 +1,52 @@
+.hotel__container {
+    width: 95vw;
+}
+
+.hotel__title {
+    padding: 0 10px;
+    color: white;
+}
+
+.hotel__image {
+    padding: 10px;
+    width: 60%;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.hotel__descriptioncomments {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    width: 380px;
+}
+
+.hotel__description {
+    /* display: inline-block;
+    padding: 10px; */
+    /* vertical-align: top; */
+    color: white;
+}
+
+.comments__container {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.comments__add {
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.commentform__container {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.return__button {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+.header {
+    background-color: rgba(0, 96, 138, 0.729);
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.header__name {
+    padding: 10px;
+    margin: auto 0;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.header__login {
+    padding: 10px;
+    margin: auto 0;
+}
+
+.header__login-form {
+    text-align: center;
+    padding: 10px;
+}
+
+.header__label {
+    margin-right: 3px;
+}
+
+.header__login-btn {
+    margin-right: 15px;
+}
+
+.header__btn {
+    background-color: paleturquoise;
+    color: rgb(0, 96, 138);
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+
+.header__welcome {
+    margin: auto 0;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}

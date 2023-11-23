@@ -1,0 +1,8 @@
+.card__start-container {
+    display: inline-block;
+}
+
+.mycard__title {
+    font-size: 15px;
+    color: orange;
+}

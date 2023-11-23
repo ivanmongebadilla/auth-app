@@ -1,0 +1,34 @@
+.main__container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment__container {
+    background-color: azure;
+    width: 80%;
+    align-self: center;
+    border-radius: 8px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(18, 70, 60, 0.625);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(18, 70, 60, 0.625);
+    box-shadow: 10px 10px 5px 0px rgba(18, 70, 60, 0.625);
+}
+
+.comment__header {
+    padding: 5px;
+}
+
+.comment__user {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.comment__stars {
+    display: inline-block;
+}
+
+.line__separator {
+    width: 100%;
+    height: 5px;
+    border-bottom: solid 2px black;
+}
