@@ -7,6 +7,8 @@ const useHttp = (requestConfig) => {
 
     const fetchAuth = async (userInfo) => {
         // const url = 'http://localhost:3000/register';
+        console.log("Fetch is entering")
+        console.log(requestConfig.url)
         try {
             const response = await fetch(requestConfig.url, {
                 method: 'POST',
@@ -16,12 +18,14 @@ const useHttp = (requestConfig) => {
         
             if (!response.ok) {
                 const error = new Error('An error occurred while fetching');
+                console.log(error)
                 error.code = response.status;
                 error.info = await response.json();
                 throw error;
             }
         
             const data = await response.json();
+            console.log(data)
             setToekn(data.accessToken)
             localStorage.setItem("Token", data.accessToken)
             // console.log(data.accessToken)

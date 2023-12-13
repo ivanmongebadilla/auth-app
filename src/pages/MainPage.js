@@ -11,7 +11,7 @@ const MainPage = () => {
     useEffect(() => {
         (async () => {
         try {
-            const response = await fetch('http://localhost:3000/hotels')
+            const response = await fetch('https://auth-app-jsonserver.onrender.com/hotels')
 
             // console.log(response)
 
