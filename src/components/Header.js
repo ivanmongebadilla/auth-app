@@ -15,7 +15,7 @@ const Header = () => {
     const [modal, setModal] = useState(false)
     const [modalContent, setModalContent] = useState('')
 
-    const httpData = useHttp({url: 'https://localhost:3000/'+ modalContent});
+    const httpData = useHttp({url: 'http://localhost:3000/'+ modalContent});
     const { token, error, fetchAuth } = httpData;
 
     // function to close or open modal

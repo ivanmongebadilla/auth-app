@@ -1,0 +1,192 @@
+{
+  "hotels": [
+    {
+      "id": 0,
+      "name": "Comfort City",
+      "image": "../assets/img1.jpg",
+      "description": "Some description of the hotel",
+      "avgstars": 4,
+      "comments": [
+        {
+          "id": 0,
+          "user": "test user",
+          "starts": 4,
+          "comment": "Nice hotel"
+        },
+        {
+          "id": 1,
+          "user": "test user 2",
+          "starts": 4,
+          "comment": "Nice hotel"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Uptown Suites",
+      "image": "assets/img2.jpg",
+      "description": "Some description of the hotel",
+      "avgstars": 5,
+      "comments": [
+        {
+          "id": 0,
+          "user": "test user",
+          "starts": 4,
+          "comment": "Nice hotel"
+        },
+        {
+          "id": 1,
+          "user": "test user 2",
+          "starts": 4,
+          "comment": "Nice hotel"
+        },
+        {
+          "id": 2,
+          "user": "test user 3",
+          "starts": 5,
+          "comment": "Nice hotel"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Urban Center",
+      "image": "assets/img3.jpg",
+      "description": "Some description of the hotel",
+      "avgstars": 3,
+      "comments": []
+    }
+  ],
+  "comments": [
+    {
+      "hotelID": 0,
+      "id": 0,
+      "user": "test user",
+      "starts": 4,
+      "comment": "Nice hotel"
+    },
+    {
+      "hotelID": 0,
+      "id": 1,
+      "user": "test user 2",
+      "starts": 4,
+      "comment": "Nice hotel"
+    },
+    {
+      "hotelID": 1,
+      "id": 2,
+      "user": "test user 2",
+      "starts": 4,
+      "comment": "Nice hotel"
+    },
+    {
+      "hotelID": 1,
+      "user": "test@email.com",
+      "starts": 3,
+      "comment": "this is a nice hotel with a very good ocean view",
+      "id": 3
+    },
+    {
+      "hotelID": 1,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "Im testing the comments",
+      "id": 4
+    },
+    {
+      "hotelID": 1,
+      "user": "test@email.com",
+      "starts": 3,
+      "comment": "one more test",
+      "id": 5
+    },
+    {
+      "hotelID": 2,
+      "user": "test@email.com",
+      "starts": 3,
+      "comment": "just a normal hotel",
+      "id": 6
+    },
+    {
+      "hotelID": 0,
+      "user": "test@email.com",
+      "starts": 4,
+      "comment": "this is a very nice hotel",
+      "id": 7
+    },
+    {
+      "hotelID": 0,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "the best hotel ive ever staid",
+      "id": 8
+    },
+    {
+      "hotelID": 0,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "im testing the comments scroll bar",
+      "id": 9
+    },
+    {
+      "hotelID": 0,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "one more comment for testing",
+      "id": 10
+    },
+    {
+      "hotelID": 2,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "its a very clean hotel",
+      "id": 11
+    },
+    {
+      "hotelID": 0,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "very nice hotel",
+      "id": 12
+    },
+    {
+      "hotelID": 0,
+      "user": null,
+      "starts": 4,
+      "comment": "this is a very good hotel",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "email": "test@email.com",
+      "password": "$2a$10$7kmM2NAqLWNMVt3wEMFG1eGsPanVfLlCEpNFl/IWNUHHyXk9WTVwe",
+      "id": 1
+    },
+    {
+      "email": "test2@email.com",
+      "password": "$2a$10$xMYgh169CuijxQL8VrwSH.wQp1vXb7JGl6hqzccajgfKM25n3JOpe",
+      "id": 2
+    },
+    {
+      "email": "test5@email.com",
+      "password": "$2a$10$gvTgtXipc/qdKHWtCc7dwuc7zGhpoU5PcUW1Voh/xHubw4eRjdMIy",
+      "id": 3
+    },
+    {
+      "email": "test3@email.com",
+      "password": "$2a$10$WVkhog/1KuKA1RYk5RPqNu413RT2hpY9/gVwNVlreK1OoCY9IODZe",
+      "id": 4
+    },
+    {
+      "email": "test4@email.com",
+      "password": "$2a$10$mdy6ZHlgOApbHnSscuJLIe2wf4/8PWcoVLSySd.9B4.0F1wH2Qt.m",
+      "id": 5
+    },
+    {
+      "email": "test6@email.com",
+      "password": "$2a$10$9qemNnlZOZpE5z0hJOGxc.tFZA7SjWrENV.qP6ZmnPiZnbkuU5/k.",
+      "id": 6
+    }
+  ]
+}
